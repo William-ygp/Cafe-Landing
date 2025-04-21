@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header {
+    position: sticky;
+    top: 0;
+}
+nav{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #333;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #000; /* Set link text color to black */
+    text-decoration: none; /* Remove underline from links */
+}
+nav a:hover {
+    color: #006341; /* Change link text color on hover */
+}
+.logo img{
+    width:90px;
+    height:90px;
+    border-radius: 50%;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.bsc-tienda{
+    background-color: #000000;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50px;
+    margin-right: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+.bsc-tienda:hover{
+    background-color: #006341;
+    color: #ffffff;
+}
